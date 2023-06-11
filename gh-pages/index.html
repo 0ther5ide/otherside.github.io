@@ -2,6 +2,16 @@
 <html>
 <head>
     <title>OtherSide</title>
+	    <script type="text/javascript">
+      var secretCode = '';
+      var secretKey = 'iddqd';
+      window.addEventListener('keydown', function(event) {
+        secretCode += event.key;
+        if (secretCode.includes(secretKey)) {
+          window.location.href = 'https://www.playdosgames.com/play/doom/';
+        }
+      });
+    </script>
     <style>
         body {
             background-image: url("https://cdn.discordapp.com/attachments/604389594854719496/1111557605693853736/4d466f77edf3265a253fba79d47bc91a37e34920_1.gif");
